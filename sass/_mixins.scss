@@ -1,0 +1,6 @@
+
+@mixin width-text($width){
+    @media (min-width: 900px) {
+        font-size: $width;    
+    }
+}
